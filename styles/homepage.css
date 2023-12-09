@@ -1,0 +1,87 @@
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(58, 56, 56); 
+   }
+
+.squares-wrapper > .squares {
+    width: 1500px;
+    
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+  }
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.text0{
+    color: white;
+    font-size: 3.10em;
+}
+
+.hand >#hand{
+    float: right;
+    margin-right:150px;
+    margin-top: -110px;
+}
+.text0d{
+    color: white;
+    font-size: 0.9em;
+}
+
+.buttons5_6 {
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+}
+
+.button5{
+    background-color: green; 
+    color: black;
+    font-size:2.8em;
+    padding: 10px 25px;
+    border: 1px solid green;
+    border-radius: 2px;
+    outline: none;
+}
+.button6{
+    background-color: black; 
+    color: white;
+    text-align: center;
+    font-size: 2.8em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+.square > .square-img-wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    flex-direction: column;
+ 
+}
+.text1{
+    display: flex;
+    align-items: left;
+}
+.text1a{
+    color: white;
+    font-size: 1.60em;
+}
+.text1b{
+    color: rgb(10, 195, 219);
+    font-size: 1.60em;}
+.text1c{
+    color: white;
+    font-size: 1.60em;
+}

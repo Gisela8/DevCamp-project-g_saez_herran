@@ -1,0 +1,108 @@
+.navigation-wrapper {
+    height: 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 0% 3% 2.5%;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    padding: 3.5% 3% 3.5% 3%;
+   
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42;
+    width: 650px;
+    padding: 6% 3% 7% 3%;
+
+}
+.explore {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: yellow;
+    font-size: 1.5em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation-wrapper>.center-column>.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper>.center-column>.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper>.center-column>.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+
+/* Right column styles */
+.navigation-wrapper>.right-column> {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 10px;
+    padding: 2% % 2% 2%;
+   
+}
+.navigation-wrapper>.right-column>{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+
+}
+
+.button1{
+    background-color: rgb(58, 56, 56); 
+    color: white;
+    font-size: 1.5em;
+    padding: 20px 25px;
+    border: 1px solid rgb(58, 56, 56);
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.green{ 
+     color: green;
+
+}
+.button2{ font-size: 2.5em;
+}
+.button3 {
+    background-color: rgb(58, 56, 56); 
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(58, 56, 56);
+    border-radius: 2px;
+    outline: none;
+}
+.button4{
+    background-color: rgb(58, 56, 56); 
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(58, 56, 56);
+    border-radius: 2px;
+    outline: none;
+}
+    
+    
